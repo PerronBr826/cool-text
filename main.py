@@ -26,7 +26,6 @@ def main():
     screen = init_game()
     clock = pygame.time.Clock() # Initialize the clock here
     running = True
-
     while running:
         running = handle_events()
         screen.fill(config.WHITE) # Use color from config
